@@ -154,7 +154,7 @@ p{
     letter-spacing: 0.30rem;
     text-align: left;
     margin-top: 20px;
-    margin-left: 120px;
+    
     
     
 }
@@ -263,8 +263,9 @@ margin: 20px 20px 50px;
         text-align: center;
     }
     .line{
-        width: 50%;
-        display: none;
+        width: 70%;
+        left: 13%;
+        
         
     }
 .luaran{
@@ -275,8 +276,15 @@ margin: 20px 20px 50px;
     margin-left: 0px;
 }
 
+
+
 }
 
+@media (min-width: 1200px){
+    .exp-head{
+        margin-left: 115px;
+    }
+}
 @media (max-width: 400px){
     
         .exp-img{
