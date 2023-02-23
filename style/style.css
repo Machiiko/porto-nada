@@ -241,6 +241,59 @@ margin: 20px 20px 50px;
 
 }
 
+@media (max-width: 1028px){
+    .big-heading{
+        font-size: 70px;
+    }
+    
+    .exp-img{
+        position: relative;
+        right: 8px;
+        margin-bottom: 50px;
+    }
+    
+    .intern{
+        text-align: center;
+    }
+    .line{
+        left: 1px
+    }
+.luaran{
+    position: relative;
+    right: 75px;
+}
+.project-head{
+    position: relative;
+    left: 95px;
+}
+
+}
+
+@media (max-width: 400px){
+    
+        .exp-img{
+            position: relative;
+            right: 60px;
+            margin-bottom: 50px;
+        
+    }
+
+    .big-heading{
+        font-size: 50px;
+    }
+
+    .luaran{
+        position: relative;
+        right: 65px;
+    }
+
+    .project-head{
+        position: relative;
+        left: 95px;
+    }
+}
+   
+
 /* call to action */
 #cta{
     background-color: #ff4c68;
@@ -272,6 +325,7 @@ a{
 .card-sl {
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
    
     
     
