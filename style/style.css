@@ -228,6 +228,12 @@ margin: 20px 20px 50px;
 }
 
 @media (max-width: 1028px){
+
+
+
+    body{
+        max-width: max-content;
+    }
     #title{
         text-align: center;
     }
